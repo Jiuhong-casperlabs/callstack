@@ -1,0 +1,7 @@
+casper-client put-deploy --chain-name casper-test \
+--node-address http://16.162.124.124:7777 \
+--secret-key "/home/jh/keys/jdk2/secret_key.pem" \
+--session-path "/home/jh/rust/test11/contract/target/wasm32-unknown-unknown/release/contract.wasm" \
+--payment-amount 50000000000
+
+--session-arg "message:string='namef?orentrypointstore'" \
